@@ -7,7 +7,7 @@ class Header extends React.Component {
     // return whatever you want to render
     return (
       <header>
-        <h1>My Fancy Header!</h1>
+        <h1>Mighty Horned Beasts</h1>
       </header>
     )
   }

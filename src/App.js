@@ -1,4 +1,5 @@
 import logo from './logo.svg';
+//why dont we have a name for the css components?
 import './App.css';
 import Header from './Header';
 import Main from './Main';
@@ -9,6 +10,8 @@ function App() {
   //Do I need a render(){here?}
   return (
        <Header />
+       //need footer
+       //need the main 
    
   )
 }
