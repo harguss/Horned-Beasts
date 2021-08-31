@@ -8,7 +8,7 @@ class Footer extends React.Component {
     // return whatever you want to render
     return (
       <header>
-        <h1>Author Susan Hargus</h1>
+        <h2>Author Susan Hargus</h2>
       </header>
     )
   }
