@@ -9,7 +9,11 @@ import './Footer';
 function App() {
   //Do I need a render(){here?}
   return (
+    <div>
        <Header />
+       <Main />
+    </div>
+      
        //need footer
        //need the main 
    
