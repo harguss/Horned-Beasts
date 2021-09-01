@@ -3,6 +3,11 @@ import {Card, Button} from 'react-bootstrap';
 
 
 class Hornedbeast extends React.Component {
+  // constructor(props){
+  //   super(props);
+  // }
+  // this.state
+
   render(){
   return(
   <div>
@@ -13,7 +18,7 @@ class Hornedbeast extends React.Component {
          alt={this.props.title} 
     />
 
-  mport React from 'react';
+  import React from 'react';
 import {Card, Button} from 'react-bootstrap';
 
 
@@ -38,7 +43,7 @@ class Hornedbeast extends React.Component {
 
   
 <Card style={{ width: '18rem' }}>
-  <Card.Img variant="top" src={this.props.src} />
+  <Card.Img variant="top" src={this.props.image_url} />
   <Card.Body>
     <Card.Title>{this.props.title}</Card.Title>
     <Card.Text>{this.props.description}</Card.Text>
