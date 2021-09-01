@@ -9,6 +9,11 @@ class Main extends React.Component {
     return (
       
       <div>
+
+
+
+
+
         <Hornedbeast 
         title="UniWhal"
         src="http://3.bp.blogspot.com/_DBYF1AdFaHw/TE-f0cDQ24I/AAAAAAAACZg/l-FdTZ6M7z8/s1600/Unicorn_and_Narwhal_by_dinglehopper.jpg"
@@ -26,9 +31,26 @@ class Main extends React.Component {
         />
         <Hornedbeast
         title="Basically a unicorn"
-        scr="https://i.pinimg.com/736x/b4/61/06/b46106830b841017ea59870b27ec18dc--narwhals-a-unicorn.jpg"
+       src="https://i.pinimg.com/736x/b4/61/06/b46106830b841017ea59870b27ec18dc--narwhals-a-unicorn.jpg"
         description="A narwhal is basically a unicorn after all, right?"
         />
+        <Hornedbeast
+        title="#truth"
+        src="https://i.pinimg.com/originals/16/cf/2a/16cf2a0b3fd51b9bee08bb6296193b75.jpg"
+        description="The truth behind narwhals"
+        />
+        <Hornedbeast
+        title="Baby Rhino"
+        src="https://secure.img1-ag.wfcdn.com/im/17007094/resize-h800%5Ecompr-r85/3589/35892451/Baby+Rhino+Figurine.jpg"
+        description= "This is actually a figurine but it looks kinda real"
+        />
+        <Hornedbeast
+        title="Cera"
+        src="https://vignette.wikia.nocookie.net/landbeforetime/images/c/c3/Cera_infobox.png/revision/latest?cb=20180422005003"
+        description="Three horns but still, horns. And who doesn't like The Land Before Time?"
+        />
+
+
         
         
 
