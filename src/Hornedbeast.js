@@ -2,55 +2,42 @@ import React from 'react';
 import {Card, Button} from 'react-bootstrap';
 
 
-class Hornedbeast extends React.Component {
-  // constructor(props){
-  //   super(props);
-  // }
-  // this.state
 
-  render(){
-  return(
-  <div>
-    {/* <h2>{this.props.title}</h2>
+class Beast extends React.Component {
+  constructor(props) {
+    super(props);
 
-    <img title={this.props.title} 
-         src={this.props.src}
-         alt={this.props.title} 
-    />
+    this.state = {
+      vote: 0,
+    };
+  }
 
-  import React from 'react';
-import {Card, Button} from 'react-bootstrap';
+addVoteImageClick = () => {
 
+    this.setState({
+      vote:this.state.vote + 1,
+      lastUpdated: new Date(),
+      
+    });
 
-class Hornedbeast extends React.Component {
-  render(){
-  return(
-  <div>
-    {/* <h2>{this.props.title}</h2>
-
-    <img title={this.props.title} 
-         src={this.props.src}
-         alt={this.props.title} 
-    />
-
-    <p>{this.props.description}</p> */}
-
-
-
-
-
-
+    console.log(this.state);
+  };
 
   
-<Card style={{ width: '18rem' }}>
-  <Card.Img variant="top" src={this.props.image_url} />
-  <Card.Body>
+  render(){
+    console.log('state', this.state);
+  return(
+  <div>
+    
+   <Card style={{ width: '18rem' }}>
+   <Card.Img variant="top" src={this.props.image_url} />
+   <Card.Body>
     <Card.Title>{this.props.title}</Card.Title>
     <Card.Text>{this.props.description}</Card.Text>
 
-    <Button variant="primary">Go somewhere</Button>
+    <p><Button onClick={this.addImageClick}>Vote</Button></p>
   </Card.Body>
-</Card>
+  </Card>
   </div>
 )
 }
@@ -58,4 +45,4 @@ class Hornedbeast extends React.Component {
     
 
 
-export default Hornedbeast;
+export default Beast;
