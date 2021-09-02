@@ -14,7 +14,7 @@ function App() {
        <Main />
     </div>
       
-       //need footer
+      
        //need the main 
    
   )
